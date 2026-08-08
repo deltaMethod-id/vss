@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <defs>
+    <linearGradient id="blueGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00A8FF"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10"
+                    flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="300" rx="40" fill="#05070A"/>
+
+  <!-- Logo icon -->
+  <g transform="translate(55 55)" filter="url(#shadow)">
+    <rect width="190" height="190" rx="45" fill="#0B0F14"/>
+
+    <!-- Placeholder symbol -->
+    <rect x="48" y="48" width="94" height="94"
+          rx="22"
+          fill="none"
+          stroke="url(#blueGradient)"
+          stroke-width="14"/>
+
+    <circle cx="95" cy="95" r="13" fill="#00A8FF"/>
+  </g>
+
+  <!-- Text -->
+  <text x="285" y="150"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="58"
+        font-weight="700"
+        fill="#FFFFFF">
+    The
+  </text>
+
+  <text x="285" y="215"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="58"
+        font-weight="700"
+        fill="url(#blueGradient)">
+    Placeholder
+  </text>
+</svg>
