@@ -1,0 +1,25 @@
+{
+  "name": "vss",
+  "version": "1.0.0",
+  "description": "VSS (Virtual Simulation Server) — A virtual environment for creating, monitoring, editing, configuring, and managing simulated servers and databases.",
+  "private": false,
+  "keywords": [
+    "vss",
+    "virtual-simulation-server",
+    "server-simulation",
+    "vps-simulation",
+    "server-management",
+    "database-management",
+    "server-monitoring"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deltaMethod-id/vss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deltaMethod-id/vss/issues"
+  },
+  "homepage": "https://github.com/deltaMethod-id/vss",
+  "author": "deltaMethod-id"
+}
